@@ -1,4 +1,4 @@
-function [W, Ws, sg] = cosmo(XYZ, Q, P, S, e_in)
+function [W, Ws, sg] = cosmo_solver(XYZ, Q, P, S, e_in)
 
 RDist = rev_dist(P, XYZ);
 QRDist = rev_dist(XYZ, XYZ);
